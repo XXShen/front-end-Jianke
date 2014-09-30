@@ -1,0 +1,178 @@
+
+
+/*通用样式 start*/
+#header{
+	width: 100%;	
+}
+#footer{
+	width: 100%;
+	overflow: hidden;	
+}
+#header .center,#body,#footer .center{
+	width: 1200px;
+	margin: 0 auto;
+}
+.leftSide{
+	float: left;
+}
+.rightSide{
+	float: right;
+}
+.column200{
+	width: 200px;
+}
+.column970{
+	width: 970px;
+}
+.column280{
+	width: 280px;
+}
+.column890{
+	width: 890px;
+}
+.mtop10{
+	margin-top: 10px;
+}
+.mtop20{
+	margin-top: 20px;
+}
+.mtop30{
+	margin-top: 30px;
+}
+.none{
+	display: none;
+}
+/*通用样式 end*/
+/*公用头部样式 start*/
+#header{
+	background: #2f3438;
+}
+#header .center{	
+	padding: 20px 0;
+	height: 73px;
+}
+#logo{
+	float: left;
+}
+#logo img{
+	float: left;
+	height: 73px;
+	width: 161px;	
+}
+#mainSeach{
+	float: left;
+	margin:40px 0 0 200px;
+	*display: inline;
+}
+#mainSeach input{
+	width: 486px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #1f2225;
+	background: url(../../images/icon01.png) no-repeat 458px 5px #707d87;
+	border-radius: 3px;
+	color: #a4b1bb;
+	font-size:16px;
+	text-indent: 10px;
+	float: left;
+}
+#mainSeach a{
+	margin:0 0 0 20px;
+	background: url(../../images/icon01.png) no-repeat -369px 0;
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+/*搜索按钮hover效果*/
+.register:hover{	
+	animation:bounce 0.8s .2s ease both;
+	-webkit-animation:bounce 0.8s .2s ease both;
+	-moz-animation:bounce 0.8s .2s ease both;
+}
+bounce{
+	0%,20%,50%,80%,100%{-webkit-transform:translateY(0)}
+	40%{-webkit-transform:translateY(-10px)}
+	60%{-webkit-transform:translateY(-5px)}
+}
+@-webkit-keyframes bounce{
+	0%,20%,50%,80%,100%{-webkit-transform:translateY(0)}
+	40%{-webkit-transform:translateY(-10px)}
+	60%{-webkit-transform:translateY(-5px)}
+}
+@-moz-keyframes bounce{
+	0%,20%,50%,80%,100%{-moz-transform:translateY(0)}
+	40%{-moz-transform:translateY(-10px)}
+	60%{-moz-transform:translateY(-5px)}
+	
+}
+#login{
+	float: right;
+	margin-top: 40px;
+}
+#login a{
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	line-height: 32px;
+	margin-left:40px;
+}
+#login .register{
+	background: url(../../images/icon01.png) no-repeat -440px -169px;
+	padding-left: 20px;
+}
+#login a:hover{
+	color: #0da4d3;
+}
+/*公用头部样式 end*/
+#footer{
+	border-top: 3px solid #0f9cc8;
+	background: #24282b;
+}
+#footer .foot{
+	width: 100%;
+	margin-top:15px;
+	background: url( ../../images/btmBg.gif);
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+#footer .center{
+	margin:0 auto;
+	color: #fff;
+}
+#footer .footerSeed{
+	float: left;
+	width: 25%;	
+}
+#footer .footerSeed span{
+	float: left;
+	width: 50%;
+	margin-left:25%;
+	height: 90px;
+}
+#footer .footerSeed p{
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #597a85;
+	font-size: 16px;
+	line-height: 1.6;	
+}
+#footer .footIcon01 span{
+	background: url(../../images/icon01.png) no-repeat 50px -250px;
+}
+#footer .footIcon02 span{
+	background: url(../../images/icon01.png) no-repeat -75px -250px;
+}
+#footer .footIcon03 span{
+	background: url(../../images/icon01.png) no-repeat -241px -262px;
+}
+#footer .footIcon04 span{
+	background: url(../../images/icon01.png) no-repeat -353px -250px;
+}
+
+
+

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* 
+ * author: Rex Shen
+ * pubdate: 2014-09-18
+ * type:basic
+ * effect:reslut css 
+ * css level: 1.0
+ * updated: 
+ */
+
+html,legend{color:#333333}
+html{background:#ffffff}
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,form,fieldset,legend,input,select,textarea,button,caption,th,td,blockquote,pre{margin:0;padding:0}
+body {font:12px/20px "Microsoft Yahei",Tahoma,Arial,Helvetica,STHeiti; }
+input,select,textarea,button{vertical-align:middle;font-size:100%;font-family:Arial,sans-serif;outline:none}
+h1,h2,h3,h4,h5,h6,th{font-weight:normal}
+h1,h2,h3,h4,h5,h6{font-size:14px;line-height:24px}
+li{list-style:none}
+table{border-spacing:0}
+caption,th{text-align:left}
+fieldset,img{border:0}
+address,cite,dfn,em,var,i{font-style:normal}
+code,dfn,kbd,samp,tt,var,pre{font-family:monospace}
+del,ins,s{text-decoration:none}
+small{font-size:100%}
+q:before{content:''}
+q:after{content:''}
+a{color:#333;text-decoration:none;outline:none}
+a:hover{color:#0da4d3}
+
+/* 此类名加上后，元素内的所有浮动的子元素(如果不是所有子元素浮动则不适用)被清理 */
+.clearfix:after {clear:both;content:".";display:block;height:0;line-height:0;visibility: hidden;}
+* html .clearfix {zoom: 1;}
+*:first-child + html .clearfix {zoom: 1;}
+/* 此类名加上后，之前兄弟元素的浮动被清理 */
+.clear_float {height: 0;width:0;overflow:hidden;font-size:0;line-height:0;clear:both;}
+
+

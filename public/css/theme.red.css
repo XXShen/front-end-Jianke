@@ -1,0 +1,39 @@
+.paging li{
+}
+.paging li a, .paging li span{
+	border:none;
+	background: #86d2e9;
+	margin-right: 10px;
+}
+.paging li a{
+	color: #fff;
+}
+.paging .current a, .paging .current span, .paging .current a:hover, .paging .current span:hover, .paging .current a:focus, .paging .current span:focus{
+	background: #0da4d3;
+}
+.paging .last-page{
+	margin-right: 0;
+}
+.paging .disabled span, .paging .disabled span:hover, .paging .disabled span:focus,.paging .disabled a:focus{
+	background: #86d2e9;
+}
+.paging li a:hover, .paging li span:hover, .paging li a:focus, .paging li span:focus {
+    background-color: #0da4d3;
+}
+#paging-odd-wrap{
+	width: 650px;
+	text-align:right; 
+	float:left;	
+}
+.pagingLabel{
+	margin: 20px 0 20px 20px;
+	line-height: 28px;
+	color:#0da4d3;
+	float: left;
+	font-size: 14px;
+}
+.pagingLabel select{
+	border: 1px solid #0da4d3;
+	height: 30px;
+	margin: 0 5px;
+}
