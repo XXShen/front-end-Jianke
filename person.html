@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/basic.css">
+    <link rel="stylesheet" href="public/css/common.css">
+    <link rel="stylesheet" href="public/css/person.css">
+    <script type="text/javascript" src="public/js/jquery-1.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="center">
+            <h2 id="logo">
+                <a href="#a">
+                    <img src="images/logo_01.png" alt="荐客">
+                </a>
+            </h2>
+            <div id="mainSeach">
+                <input type="text" value='搜索感兴趣的关键词找到人才'>
+                <a href='javascript:void(0);'>搜索</a>
+            </div>
+            <div id="login">
+                <a href="javascript:void(0);" class="login">登陆</a>
+                <a href="javascript:void(0);" class="register">注册</a>
+            </div>
+            <div id="hasLogin none">
+                <a href="javascript:void(0);">
+                    <span>苏州</span>[更换]</a>
+            </div>
+        </div>
+    </div>
+    <div id="body">
+        <!--主体内容-->
+
+        <div class="mainNav mtop20">
+            <div class="hty_nav">
+                <a href="#a" class="home">&nbsp;&nbsp;</a>&nbsp;&gt;&nbsp;
+                <a href="#a">互联网</a>&nbsp;&gt;&nbsp;
+                <a href="#a">产品经理</a>&nbsp;&gt;&nbsp;当前年薪：10-15w / 工作年限：5-7 年 / 语言能力：英语
+            </div>
+        </div>
+
+        <div class="leftSide column970 mtop20">
+            <div class="personAbout">
+                <div class="mode leftSide ">
+                    <span class="perPic">
+                        <img src="" alt="">
+                    </span>
+                    <span class='personId'>A-SZ-001</span>
+                    <ul class="informationList">
+                        <li>36岁</li>
+                        <li>上海</li>
+                        <li>本科</li>
+                        <li>工商管理</li>
+                        <li>未婚</li>
+                    </ul>
+                </div>
+                <div class="mode rightSide">
+                    <div class="forwardButton"><a href="javascript:void(0)">转发</a>
+                    </div>
+                    <div class="collet nocollet mtop30"><a href="javascript:void(0);">收藏(1234)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="personMain">
+                <div class="graph">
+
+                </div>
+                <div class="mainlist">
+                    <ul>
+                        <li>
+                            <span>当前职位:</span>
+                            <em>运营经理</em>
+                        </li>
+                        <li>
+                            <span>汇报对象:</span>
+                            <em>运营VP</em>
+                        </li>
+                        <li>
+                            <span>当前年薪:</span>
+                            <em>24W</em>
+                        </li>
+                        <li>
+                            <span>工作年限:</span>
+                            <em>8年</em>
+                        </li>
+
+                    </ul>
+                    <ul class="interval10">
+                        <li>
+                            <span>来自顾问:</span>
+                            <em>Bea Guo</em>
+                        </li>
+                        <li>
+                            <span>上架时间:</span>
+                            <em>2014/09/23</em>
+                        </li>
+                    </ul>
+                    <a href="#a" class="inviteButton">邀约面试</a>
+                </div>
+                <div class="lastCompany">
+                    <span class="lastTxt">历任雇主</span>
+                    <div class="companyList mtop20">
+
+                        <div class="companyImg">
+                            <img src="http://d.hiphotos.baidu.com/baike/c0%3Dbaike60%2C5%2C5%2C60%2C20%3Bt%3Dgif/sign=ec7f732671cf3bc7fc0dc5beb069d1c4/0b46f21fbe096b637d52d17b0d338744ebf8ac56.jpg" alt="">
+                            <span class="none">关注</span>
+                            <em class="none"></em>
+                        </div>
+                        <p>诺基亚</p>
+                        <div class="companyImg">
+                            <img src="http://d.hiphotos.baidu.com/baike/c0%3Dbaike60%2C5%2C5%2C60%2C20%3Bt%3Dgif/sign=ec7f732671cf3bc7fc0dc5beb069d1c4/0b46f21fbe096b637d52d17b0d338744ebf8ac56.jpg" alt="">
+                            <span class="none">关注</span>
+                            <em class="none"></em>
+                        </div>
+                        <p>诺基亚</p>
+
+                        <div class="companyImg">
+                            <img src="http://d.hiphotos.baidu.com/baike/c0%3Dbaike60%2C5%2C5%2C60%2C20%3Bt%3Dgif/sign=ec7f732671cf3bc7fc0dc5beb069d1c4/0b46f21fbe096b637d52d17b0d338744ebf8ac56.jpg" alt="">
+                            <span class="none">关注</span>
+                            <em class="none"></em>
+                        </div>
+                        <p>诺基亚</p>
+
+                    </div>
+                    <span class="scrollButton"></span>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="commentImg">
+
+                </div>
+                <div class="commentText">
+                    <div class="commentBg"></div>
+                    <div class="commentMain">
+                        <p>
+                            该候选人的活跃与创新本质，适合期望改变现状，氛围较沉闷的团队。
+                        </p>
+                        <div class="tuijianDiv">
+                            <div class="tuijianSeed">
+                                <span>推荐指数</span>
+                                <script type="text/javascript">
+                                    function SaveClass() {
+                                        var temClassArry = new Array()
+                                        $("#UserStart > li").each(function(i) {
+                                            temClassArry[i] = $(this).attr("class");
+                                        })
+                                        return temClassArry;
+                                    }
+                                    $(document).ready(function() {
+                                        var temparray = SaveClass();
+                                        $("#UserStart > li").mousemove(
+                                            function() {
+                                                var currentCount = 0;
+                                                currentCount = $("#UserStart > li").index($(this)[0])
+                                                $("#UserStart > li").each(function(i) {
+                                                    if (i <= currentCount) {
+                                                        $(this).removeClass();
+                                                        $(this).addClass("on");
+                                                    } else {
+                                                        $(this).removeClass();
+                                                        $(this).addClass("off");
+                                                    }
+                                                })
+                                            }
+                                        )
+                                            .click(function() {
+                                                temparray = SaveClass();
+                                            })
+                                            .mouseout(function() {
+                                                $("#UserStart > li").each(function(i) {
+                                                    $(this).removeClass();
+                                                    $(this).addClass(temparray[i]);
+                                                })
+                                            })
+                                    });
+                                </script>
+                                <ul class="star" id="UserStart">
+                                    <li class="on"></li>
+                                    <li class="on"></li>
+                                    <li class="off"></li>
+                                    <li class="off"></li>
+                                    <li class="off"></li>
+                                   
+                                </ul>
+                            </div>
+
+                            <div class="tuijianSeed">评价顾问：Bea Guo</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="relevantIndormation">
+                <div class="relevantHead">
+                    <ul>
+                        <li class="occupationBg onRelevant">职业背景</li>
+                        <li class="anothereBg">第三方评测</li>
+                        <li class="knowFarst">快速了解</li>
+                    </ul>
+                </div>
+                <div class="relevantMain">
+                    <div class="relevantSeed occupationSeed">
+                        <ul>
+                            <li class="occupationOn">基础信息</li>
+                            <li>教育信息</li>
+                            <li>期望信息</li>
+                            <li>最近工作信息</li>
+                        </ul>
+                        <div class="informationTable">
+                            <table>
+                                <tr>
+                                    <td class="stateList">当前职业</td>
+                                    <td class="stateValue">PMA</td>
+                                </tr>
+                                <tr>
+                                    <td class="stateList">性别</td>
+                                    <td class="stateValue">男</td>
+                                </tr>
+                                <tr>
+                                    <td class="stateList">国家或地区</td>
+                                    <td class="stateValue">中国</td>
+                                </tr>
+                                <tr>
+                                    <td class="stateList">婚姻状况</td>
+                                    <td class="stateValue">已婚</td>
+                                </tr>
+                                <tr>
+                                    <td class="stateList">出生年份</td>
+                                    <td class="stateValue">1982</td>
+                                </tr>
+                                <tr>
+                                    <td class="stateList">最高学历</td>
+                                    <td class="stateValue">本科</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="relevantSeed">
+                        
+                    </div>
+                    <div class="relevantSeed">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightSide column200 mtop20">
+            <div class='personTrends'>
+                <h3>人选动态</h3>
+                <p>该候选人共面试15次</p>
+            </div>
+            <ul>
+                <li>
+                    <p>2014/07/23</p>
+                    <span>面试了<em>爱游戏</em></span>
+                </li>
+                <li>
+                    <p>2014/07/23</p>
+                    <span>面试了<em>爱游戏</em></span>
+                </li>
+                <li>
+                    <p>2014/07/23</p>
+                    <span>面试了<em>爱游戏</em></span>
+                </li>
+            </ul> 
+            <div class="showmoreButton">
+                
+            </div>
+        </div>
+        <div class="seeMore">
+            <div class="seeMoreHead">
+                <span>看了他的人</span>
+                <em>还看了</em>
+            </div>
+            <div class="seemoreBody">
+                <ul>
+                    <li><span>A-SZ-005</span>产品经理&nbsp;&nbsp;8年</li>
+                    <li><span>A-SZ-005</span>产品经理&nbsp;&nbsp;8年</li>
+                    <li><span>A-SZ-005</span>产品经理&nbsp;&nbsp;8年</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="seeTime">
+            <p>该候选人平均被浏览<em>15秒</em></p>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="foot">
+            <div class="center">
+                <div class="footerSeed footIcon01">
+                    <span></span>
+                    <p>猎头推荐的中高端人才
+                        <br>全部激活状态！
+                    </p>
+
+                </div>
+                <div class="footerSeed footIcon02">
+                    <span></span>
+                    <p>超丰富的筛选条件
+                        <br>10分钟找到人才！
+                    </p>
+                </div>
+                <div class="footerSeed footIcon03">
+                    <span></span>
+                    <p>1/10的猎头服务费
+                        <br>货到付款！
+                    </p>
+                </div>
+                <div class="footerSeed footIcon04">
+                    <span></span>
+                    <p>轻松管理面试流程
+                        <br>尽在掌握！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

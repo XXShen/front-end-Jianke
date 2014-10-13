@@ -1,6 +1,9 @@
 
 
 /*通用样式 start*/
+body{
+	background: #f6f6f6;
+}
 #header{
 	width: 100%;	
 }

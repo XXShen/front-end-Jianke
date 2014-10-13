@@ -20,7 +20,7 @@
 .paging li a:hover, .paging li span:hover, .paging li a:focus, .paging li span:focus {
     background-color: #0da4d3;
 }
-#paging-odd-wrap{
+.paging-odd{
 	width: 650px;
 	text-align:right; 
 	float:left;	
