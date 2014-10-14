@@ -10,10 +10,14 @@ body{
 #footer{
 	width: 100%;
 	overflow: hidden;	
+	margin-top: 20px;
 }
 #header .center,#body,#footer .center{
 	width: 1200px;
 	margin: 0 auto;
+}
+#body{
+	overflow: hidden;
 }
 .leftSide{
 	float: left;
@@ -51,20 +55,20 @@ body{
 	background: #2f3438;
 }
 #header .center{	
-	padding: 20px 0;
-	height: 73px;
+	padding:0 0 20px 0;
+	height: 102px;
 }
 #logo{
 	float: left;
 }
 #logo img{
 	float: left;
-	height: 73px;
-	width: 161px;	
+	height: 102px;
+	width: 282px;	
 }
 #mainSeach{
 	float: left;
-	margin:40px 0 0 200px;
+	margin:65px 0 0 80px;
 	*display: inline;
 }
 #mainSeach input{
@@ -114,7 +118,7 @@ bounce{
 }
 #login{
 	float: right;
-	margin-top: 40px;
+	margin-top: 65px;
 }
 #login a{
 	float: left;

@@ -16,7 +16,7 @@
         <div class="center">
             <h2 id="logo">
                 <a href="#a">
-                    <img src="images/logo_01.png" alt="荐客">
+                    <img src="images/logo_01.jpg" alt="荐客">
                 </a>
             </h2>
             <div id="mainSeach">
@@ -68,7 +68,7 @@
             </div>
             <div class="personMain">
                 <div class="graph">
-
+                    <img src="images/demo.jpg" alt="">
                 </div>
                 <div class="mainlist">
                     <ul>
@@ -143,49 +143,51 @@
                         <div class="tuijianDiv">
                             <div class="tuijianSeed">
                                 <span>推荐指数</span>
+                                <!--
                                 <script type="text/javascript">
-                                    function SaveClass() {
-                                        var temClassArry = new Array()
-                                        $("#UserStart > li").each(function(i) {
-                                            temClassArry[i] = $(this).attr("class");
-                                        })
-                                        return temClassArry;
-                                    }
-                                    $(document).ready(function() {
-                                        var temparray = SaveClass();
-                                        $("#UserStart > li").mousemove(
-                                            function() {
-                                                var currentCount = 0;
-                                                currentCount = $("#UserStart > li").index($(this)[0])
-                                                $("#UserStart > li").each(function(i) {
-                                                    if (i <= currentCount) {
-                                                        $(this).removeClass();
-                                                        $(this).addClass("on");
-                                                    } else {
-                                                        $(this).removeClass();
-                                                        $(this).addClass("off");
-                                                    }
-                                                })
-                                            }
-                                        )
-                                            .click(function() {
-                                                temparray = SaveClass();
-                                            })
-                                            .mouseout(function() {
-                                                $("#UserStart > li").each(function(i) {
+                                function SaveClass() {
+                                    var temClassArry = new Array()
+                                    $("#UserStart > li").each(function(i) {
+                                        temClassArry[i] = $(this).attr("class");
+                                    })
+                                    return temClassArry;
+                                }
+                                $(document).ready(function() {
+                                    var temparray = SaveClass();
+                                    $("#UserStart > li").mousemove(
+                                        function() {
+                                            var currentCount = 0;
+                                            currentCount = $("#UserStart > li").index($(this)[0])
+                                            $("#UserStart > li").each(function(i) {
+                                                if (i <= currentCount) {
                                                     $(this).removeClass();
-                                                    $(this).addClass(temparray[i]);
-                                                })
+                                                    $(this).addClass("on");
+                                                } else {
+                                                    $(this).removeClass();
+                                                    $(this).addClass("off");
+                                                }
                                             })
-                                    });
+                                        }
+                                    )
+                                        .click(function() {
+                                            temparray = SaveClass();
+                                        })
+                                        .mouseout(function() {
+                                            $("#UserStart > li").each(function(i) {
+                                                $(this).removeClass();
+                                                $(this).addClass(temparray[i]);
+                                            })
+                                        })
+                                });
                                 </script>
+                            -->
                                 <ul class="star" id="UserStart">
                                     <li class="on"></li>
                                     <li class="on"></li>
                                     <li class="off"></li>
                                     <li class="off"></li>
                                     <li class="off"></li>
-                                   
+
                                 </ul>
                             </div>
 
@@ -204,6 +206,7 @@
                         <li class="knowFarst">快速了解</li>
                     </ul>
                 </div>
+
                 <div class="relevantMain">
                     <div class="relevantSeed occupationSeed">
                         <ul>
@@ -241,55 +244,104 @@
                             </table>
                         </div>
                     </div>
-                    <div class="relevantSeed">
-                        
+                    <div class="relevantSeed none">
+                        <div class="supplySay">
+                            <p>[本报告由
+                                <img src="images/ad001.png" alt="">专业第三方提供]</p>
+                        </div>
+                        <div class="supplyMain">
+                            <h4>对组织的
+                                <br>
+                                <em>价值</em>
+                            </h4>
+                            <p>该测试者的工作优势是稳重同时非常自信、能够激励别人；该测试者在聆听意见和观点的时候，表现得很有耐性，使得人们愿意找他/她解决问题；他/她深思熟虑并且能够坚持不懈地实现工作目标，控制成本；并能够通过说服别人来赢得他们的支持。</p>
+                        </div>
+                        <div class="supplyJuti">
+                            <p>
+                                该测试者天性亲切、外向、积极。他会主动开拓，但不一定是个快速的开拓者。他可能会变得坚定、独立，当他认为自己或同事受到了不公正的对待时尤其如此。要注意该测试者是以公平公正为导向，而不是以规章制度为导向。如果有必要，那么该测试者会采取反对现行体系和规章制度的态度。该测试者既善于倾听，也善于表达，他是个天生的沟通者，能向别人提建议，尽管他采用的方式有些教条。 该测试者不喜欢突然的改变，而且除非是向他详细解释原因，否则该测试者很可能抵制执行新的想法和方式。 该测试者相当果断，但他可能会拖到最后才去制定苛刻、不受欢迎的决策，或者是对别人进行纪律约束。 该测试者能使大多数人同意自己的看法，也总会努力运用魅力来说服别人，并且赢得他们的支持。 他能做短期和长期的组织计划工作。通常情况下，该测试者也能处理日常工作，或重复性的行政任务。 通常情况下，该测试者是个优秀的团队领导者，但由于天生的占有欲，他可能会有些过于保护自己的团队。他工作努力，如果情境给他施压，让他绕开一些程序，或采取捷径，那么该测试者会顽固地进行抵制。
+
+                            </p>
+                        </div>
                     </div>
-                    <div class="relevantSeed">
-                        
+                    <div class="relevantSeed none">
+                        <div class="farstKnow borderBottom">
+                            <h4>您为什么想换工作?</h4>
+                            <p>您为什么想换工作?</p>
+                        </div>
+                        <div class="farstKnow">
+                            <h4>您对新公司的期待是什么?</h4>
+                            <p>希望加入一家创业团队，负责服务器端的开发和开发管理工作，希望团队重视技术，以技术推动产品革新和进步</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <script>
+        $('.relevantHead li').click(function() {
+            if ($(this).hasClass('onRelevant') === false) {
+                $('.relevantHead li').removeClass('onRelevant');
+                $(this).addClass('onRelevant');
+                var shun = $(this).index();
+                $('.relevantSeed').addClass('none');
+                $('.relevantSeed').eq(shun).removeClass('none');
+            }
+        })
+        </script>
         <div class="rightSide column200 mtop20">
             <div class='personTrends'>
                 <h3>人选动态</h3>
-                <p>该候选人共面试15次</p>
-            </div>
-            <ul>
-                <li>
-                    <p>2014/07/23</p>
-                    <span>面试了<em>爱游戏</em></span>
-                </li>
-                <li>
-                    <p>2014/07/23</p>
-                    <span>面试了<em>爱游戏</em></span>
-                </li>
-                <li>
-                    <p>2014/07/23</p>
-                    <span>面试了<em>爱游戏</em></span>
-                </li>
-            </ul> 
-            <div class="showmoreButton">
-                
-            </div>
-        </div>
-        <div class="seeMore">
-            <div class="seeMoreHead">
-                <span>看了他的人</span>
-                <em>还看了</em>
-            </div>
-            <div class="seemoreBody">
+                <p class="meetTimes">该候选人共面试15次</p>
                 <ul>
-                    <li><span>A-SZ-005</span>产品经理&nbsp;&nbsp;8年</li>
-                    <li><span>A-SZ-005</span>产品经理&nbsp;&nbsp;8年</li>
-                    <li><span>A-SZ-005</span>产品经理&nbsp;&nbsp;8年</li>
-                    
+                    <li>
+                        <p>2014/07/23</p>
+                        <span>面试了
+                            <em>爱游戏</em>
+                        </span>
+                    </li>
+                    <li>
+                        <p>2014/07/23</p>
+                        <span>面试了
+                            <em>爱游戏</em>
+                        </span>
+                    </li>
+                    <li>
+                        <p>2014/07/23</p>
+                        <span>面试了
+                            <em>爱游戏</em>
+                        </span>
+                    </li>
                 </ul>
+                <div class="showmoreButton">
+
+                </div>
+            </div>
+
+
+            <div class="seeMore mtop10">
+                <div class="seeMoreHead">
+                    <span>看了他的人</span>
+                    <em>还看了</em>
+                </div>
+                <div class="seemoreBody">
+                    <ul>
+                        <li>
+                            <span>A-SZ-005</span>&nbsp;&nbsp;产品经理&nbsp;&nbsp;8年</li>
+                        <li>
+                            <span>A-SZ-005</span>&nbsp;&nbsp;产品经理&nbsp;&nbsp;8年</li>
+                        <li>
+                            <span>A-SZ-005</span>&nbsp;&nbsp;产品经理&nbsp;&nbsp;8年</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="seeTime mtop10">
+                <p>该候选人平均被浏览
+                    <em>15秒</em>
+                </p>
             </div>
         </div>
-        <div class="seeTime">
-            <p>该候选人平均被浏览<em>15秒</em></p>
-        </div>
+
     </div>
     <div id="footer">
         <div class="foot">

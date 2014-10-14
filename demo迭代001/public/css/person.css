@@ -317,6 +317,7 @@
 .relevantHead ul{
 	float: left;
 	width: 100%;
+	
 }
 .relevantHead ul li{
 	float: left;
@@ -326,7 +327,7 @@
 	color: #666;
 	margin: 0 30px;
 	padding-left: 30px;
-
+	cursor: pointer;
 }
 .occupationBg{
 	background: url(../../images/personIcon.png) no-repeat 0 -253px;
@@ -341,6 +342,7 @@
 }
 .onRelevant{
 	border-bottom: 2px solid #0da4d3;
+	cursor: default;
 }
 .relevantMain{
 	overflow: hidden;
@@ -388,9 +390,184 @@
 .stateValue{
 	padding-left: 20px;
 }
+.personTrends{
+	overflow: hidden;
+	background: #fff;
+	border-top: 3px solid #38cffe;
+	padding:0 10px ;
+}
+.personTrends h3{
+	color: #38cffe;
+	font-size: 20px;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+	text-align: center;
+	padding:5px 0;
+}
+.personTrends .meetTimes{
+	color: #38cffe;
+	font-size: 14px;
+	line-height: 24px;
+	border-top: 1px solid #38cffe;
+	border-bottom: 1px solid #38cffe;
+	padding:3px 0;
+}
+.personTrends ul{
+	float: left;
+	width: 100%;
+	font-size: 14px;
+}
+.personTrends li{
+	float: left;
+	border-bottom: 1px dashed #ccc;
+	background: url(../../images/personIcon.png) no-repeat -483px -125px ;
+	padding: 10px 0 10px 20px;
+	line-height: 24px;
+	color: #666;
+	width: 160px;
+}
+.personTrends li p{
+	width: 100%;
+	color: #38cffe;
+	
+}
+.personTrends li span{
+	width: 100%;
+}
+.personTrends li span em{
+	color: #38cffe;
+}
+.showmoreButton{
+	background: url(../../images/personIcon.png) no-repeat -314px -605px ;
+	width: 180px;
+	height:18px;
+	display: block;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.seeMore{
+	overflow: hidden;
+	background: #fff;
+	padding:10px;
+}
+.seeMoreHead{
+	width: 124px;
+	overflow: hidden;
+	background: url(../../images/seeMore.gif) no-repeat  ;
+	height: 52px;
+	padding-left: 56px;
+}
+.seeMoreHead span{
+	float: left;
+	clear: both;
+	font: 14PX;
+	color: #666;
+	margin: 0 0 0 5px;
+	line-height: 24px; 
+}
+.seeMoreHead em{
+	float: right;
+	clear: both;
+	color: #0da4d3;
+	font-size: 24px;
+	line-height: 34px;
+}
+.seemoreBody ul{
+	float: left;
+	border-top: 2px solid #0da4d3;
+	margin: 10px 0 0 0;
+}
+.seemoreBody li{
+	float: left;
+	border-bottom: 1px dashed #ccc;
+	font-size: 14px;
+	color: #666;
+	line-height: 34px;
+	width: 100%;
+}
+.seemoreBody span{
+	color: #0da4d3;
+}
+.seeTime{
+	border: 1px dashed #0da4d3;
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+	padding: 5px 0;
+	width: 100%;
+	text-align: center;
+}
+.seeTime em{
+	color: #0da4d3;
+	margin: 0 0 0 5px
+}
+.supplySay{
+	padding: 20px 0;
+	overflow: hidden;
+}
+.supplySay p{
+	float: right;
+	font-size: 14px;
+	color: #0da4d3;
+}
+.supplyMain{
+	background: url(../../images/supplyBg.png) repeat  ;
+	padding: 30px 25px;
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+
+}
+.supplyMain h4{
+	font-size: 28px;
+	line-height: 40px;
+	float: left;
+}
+.supplyMain h4 em{
+	color: #0da4d3;
+}
+.supplyMain p{
+	width: 680px;
+	float: right;
+	font-size: 16px;
+	line-height: 32px;
+	color: #666;
+}
+.supplyJuti{
+	background:#fff;
+	padding: 30px 10px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #666;
+}
+.farstKnow{
+	overflow: hidden;
+}
+.farstKnow h4{
+	font-size: 20px;
+	line-height: 30px;
+	color: #0da4d3;
+	border-left: 3px solid #0da4d3;
+	border-right: 3px solid #0da4d3;
+	float: left;
+	clear: both;
+	padding: 0 10px;
+	
+	margin: 20px 0 5px 0;
+}
+.farstKnow p{
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+	float: left;
+	width: 100%;
+	margin: 5px 0 20px 0; 
+}
+.borderBottom{
+	border-bottom: 1px dashed #ccc;
+}
 
 
 
-
-
-
+{}

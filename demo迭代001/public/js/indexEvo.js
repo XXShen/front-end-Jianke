@@ -1,71 +1,3 @@
-$('.seachSift li a').click(function  () {
-	var evenClass = $(this).attr('class');
-	if( evenClass === 'normal'){
-		$(this).attr('class','pitchOn');
-	}else{
-		$(this).attr('class','normal');
-	}
-})
-$('.mainNav span').live('mousemove',
-	function  () {
-		$(this).addClass('closedEmHover').removeClass('closedEm');
-	}
-)
-$('.mainNav span').live('mouseout',
-	function  () {
-		$(this).addClass('closedEmHover').removeClass('closedEm');
-	}
-)
-function cteatLabel(type,text){//创建右侧导航标签
-	this.type = type;
-	this.text = text; 	
-	var htmlTxt = '<span class="closedEm" freeStyleType="'+ this.type + '">' + this.text + '<em class=""></em></span>'	
-	$('.mainNav').append(htmlTxt);
-}
-function delLabel(type){//删除右侧导航标签			
-	$('.mainNav span').each(function(i){
-		if( $(this).attr('freestyletype') === type ){
-			$(this).detach();
-		}
-	})	
-}
-function hideField(type,text){//隐藏左侧删选list
-	$('.field ul').each(function(i){
-		if( $(this).attr('freestyletype') === type ){
-			$(this).parent('.field').hide(200);
-			$(this).parent().prev('.siftMode').children('span').text(text);		
-			$(this).parent().prev('.siftMode').show(200);
-		}
-	})	
-}
-function showField(type){//展开左侧筛选list
-	$('.field').each(function(i){
-		if( $(this).children('ul').attr('freeStyleType') == type){
-			$(this).show(200);			
-			$(this).prev('.siftMode').hide(200);
-		}		
-	})
-}
-$('.field li').click(function(){
-	var type = $(this).parent('ul').attr('freeStyleType');
-	var text = $(this).text();	
-	cteatLabel(type,text);
-	hideField(type,text);
-})
-$('.mainNav span em').live('click',function(){
-	var type = $(this).parent('span').attr('freeStyleType');
-	showField(type);
-	delLabel(type);
-})
-$('.siftMode').click(function(){
-	var type = $(this).attr('freeStyleType');
-	showField(type);
-	delLabel(type);
-})
-
-
-
-
 function loginShow() {
     $("#shadeBg").css({
         background: '#000',
@@ -73,10 +5,10 @@ function loginShow() {
         height: $(document).height()
     });
     var yscroll = document.documentElement.scrollTop;
-    
+
     var h1 = $(document).scrollTop();
-    
-    
+
+
     $("#setLogin").css("top", h1);
 
     $("#setLogin").removeClass("none ").addClass('animationLogin');
@@ -160,15 +92,19 @@ var jobNav02 = [{
 }];
 
 var top01;
-$('.jobNavFirst dl').mousemove(function() {
+$('.jobNavFirst dl').mouseenter(function() {
     var navTopT = $(this).offset().top - $(this).height(); + 'px';
+    $('.jobNavFirst dl').css({
+        background:'#dde1e4'
+    })    
     $(this).css({
-        background:'#d0d6db'
+        background: '#d0d6db'
     })
     $('.jobNavThird ').css({
         top: navTopT,
-        display: 'block'
+       
     });
+    $('.jobNavThird ').slideDown();
     $('.jobNavThird .list dl').detach(); //清空三级导航内容
     var jobType = $(this).attr('jobType'); //匹配三级导航和数据对应的内容    
     var newJobType = new Array,
@@ -207,11 +143,66 @@ $('.jobNavFirst dl').mousemove(function() {
         }
     })
 })
-$('.collectButtom').live('click',function(){
-	$(this).addClass('collectButtomChoose').removeClass('collectButtom');
-	var num = parseInt($(this).find('em').html());
-	$(this).find('em').html(num + 1);
+$('.leftSide').mouseleave (function(){
+    $('.jobNavFirst dl').css({
+        background:'#dde1e4'
+    })  
+    $('.jobNavThird ').fadeOut();
 })
 
+/*
+$(function() {
+    $(document).bind("click", function(e) {
+        var target = $(e.target); //表示当前对象，切记，如果没有e这个参数，即表示整个BODY对象
+        
+        $('.jobNavFirst dl').css({
+            background:'#dde1e4'
+        }) 
+        $('.jobNavThird ').css({
+           
+            display: 'none'
+        });
+    })
+})
+*/
 
 
+$('.color01').hover(function() {
+    $(this).css(
+        'background-color', '#927646'
+    )
+}, function() {
+    $(this).css(
+        'background-color', '#fff'
+    )
+})
+
+$('.color02').hover(function() {
+    $(this).css(
+        'background-color', '#e18636'
+    )
+}, function() {
+    $(this).css(
+        'background-color', '#fff'
+    )
+})
+
+$('.color03').hover(function() {
+    $(this).css(
+        'background-color', '#dc341d'
+    )
+}, function() {
+    $(this).css(
+        'background-color', '#fff'
+    )
+})
+
+$('.color04').hover(function() {
+    $(this).css(
+        'background-color', '#89ac20'
+    )
+}, function() {
+    $(this).css(
+        'background-color', '#fff'
+    )
+})
